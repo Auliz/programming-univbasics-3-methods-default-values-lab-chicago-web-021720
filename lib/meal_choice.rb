@@ -2,6 +2,8 @@
 # For output purposes, use "puts" instead of "print" or "p"
 
 def meal_choice(veg1, veg2, protein = "meat")
-  puts "What a nutritious meal!" 
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  nutritious_meal = "What a nutritious meal!" 
+  food_ordered = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts nutritious_meal
+  puts food_ordered
 end 
